@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-header {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: white !important;
+}
+
+
+.main-header {
+    /* background-image: url('../images/LAPTOP.jpg'); */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../images/LAPTOP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15% 0%;
+}
+
+.hero-content h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.hero-gambar {
+    margin-bottom: 10px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.main-tentang {
+    padding: 10% 0%;
+
+}
+
+.main-tentang h4 {
+    margin-bottom: 2%;
+}
+
+
+/*--Bagian KArya--*/
+
+.main-karya {
+    background-color: #DDDDDD;
+    padding: 10% 0%;
+}
+
+.main-karya h4 {
+    margin-bottom: 2%;
+}
+
+.main-karya h6 {
+    margin-bottom: 10%;
+}
+
+.down-items {
+    margin-bottom: 2%;
+}
+
+.img-thumbnail {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+
+
+/*--Bagian Skill--*/
+
+.main-skil {
+    /* background-color: #787C7D; */
+
+    padding: 10% 0%;
+}
+
+.main-skil h4 {
+    margin-bottom: 5%;
+    /* color: white; */
+}
+
+.down-items {
+    margin-bottom: 2%;
+}
+
+/*--Bagian Kontak--*/
+.main-kontak {
+    padding: 5% 0;
+    margin-bottom: 50px;
+}
+
+.main-kontak h4 {
+    margin-bottom: 5%;
+}
+
+.main-kontak img{
+    width: 32px;
+    /* height: 32px; */
+}
+
+.main-footer {
+    background-color: black;
+}
+
+/*--Bagian Footerl--*/
+
+.main-footer {
+    background-color: #343A40;
+    color: white;
+    padding: 2% 0;
+}
